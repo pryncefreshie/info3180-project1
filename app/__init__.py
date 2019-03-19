@@ -4,8 +4,8 @@ from subprocess import call
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "you know nothing Jon Snow"
-#app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://fmnibhaashbxuy:73b8e2e2485adfd45f57da653d63950b88fdcae12202a84f80c7f4c297e9e30a@ec2-23-23-222-184.compute-1.amazonaws.com:5432/d27ig8fpt4ch7r"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://info2180-project1:password123@localhost/profilebook"
+#app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://icmysushcyvrax:9dd778aa5f4376c4884e8b776c6fbe2cdef16515061aff155be4153daf60c9e4@ec2-50-17-227-28.compute-1.amazonaws.com:5432/dav3d5eun2sbm3"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://icmysushcyvrax:9dd778aa5f4376c4884e8b776c6fbe2cdef16515061aff155be4153daf60c9e4@ec2-50-17-227-28.compute-1.amazonaws.com:5432/dav3d5eun2sbm3"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True # added just to suppress a warning
 app.config['UPLOAD_FOLDER'] = './app/static/profilephotos'
 db = SQLAlchemy(app)

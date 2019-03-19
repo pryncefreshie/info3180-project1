@@ -2,7 +2,7 @@ from app import app, db, allowed_exts
 from flask import render_template, request, url_for, redirect, flash
 from .forms import NewProfileForm
 from werkzeug.utils import secure_filename
-from models import User
+from app.models import User
 from sqlalchemy import exc
 
 import datetime
